@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+.socials {
+    margin: 30px auto;
+    text-align: center;
+}
+.socials img {
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.input-group {
+    top: 160px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    border-left: 0;
+    outline: none;
+    background: transparent;
+}
+.submit-btn {
+    padding: 10px 30px;
+    bottom: 130px;
+    left: 140px;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+#name-surname {
+    left: 50px;
+}
+#user-psw {
+    left: 450px;
+}
